@@ -11,7 +11,7 @@ try
     Logout("From ".$domin);
     switch($domin)
     {
-        case "localhost" : include("Invoke/index.php");break;
+        case "localhost" : include("Rhe/index.php");break;
         default :include("Rhe/index.php");break;
     }
 }
