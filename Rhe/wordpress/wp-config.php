@@ -23,7 +23,7 @@
 define('DB_NAME', 'wp_rhe');
 
 /** MySQL数据库用户名 */
-define('DB_USER', 'rhe');
+define('DB_USER', 'root');
 
 /** MySQL数据库密码 */
 define('DB_PASSWORD', '090763');

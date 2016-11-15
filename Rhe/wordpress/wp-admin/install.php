@@ -31,10 +31,8 @@ if ( false ) {
  * @var bool
  */
 define( 'WP_INSTALLING', true );
-echo "A";
 /** Load WordPress Bootstrap */
 require_once( dirname( dirname( __FILE__ ) ) . '/wp-load.php' );
-echo "B";
 /** Load WordPress Administration Upgrade API */
 require_once( ABSPATH . 'wp-admin/includes/upgrade.php' );
 

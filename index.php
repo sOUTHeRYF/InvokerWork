@@ -1,6 +1,7 @@
 <?php
 $GLOBALS['logon'] = true;
 require_once "RequestRecord.php";
+//echo phpinfo();
 Logout("Welcome");
 try
 {
@@ -11,8 +12,8 @@ try
     Logout("From ".$domin);
     switch($domin)
     {
-        case "localhost" : include("Rhe/index.php");break;
-        default :include("Rhe/index.php");break;
+     //   case "localhost" : include("Rhe/index.php");break;
+        default :include("Invoke/index.php");break;
     }
 }
 catch(Exception $e)
