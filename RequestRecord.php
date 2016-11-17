@@ -12,6 +12,7 @@
         public function Record()
         {
             Logout("Record Success");
+            /*
             $ch = curl_init(); 
             $timeout = 5; 
             $url = $this->buildRequestURL();
@@ -22,6 +23,7 @@
             curl_close($ch); 
             Logout("AA".$file_contents);
             echo $file_contents; 
+            */
         }
         public function buildRequestURL()
         {
